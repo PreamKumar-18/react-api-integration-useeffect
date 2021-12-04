@@ -1,8 +1,5 @@
 import React, { useState, useEffect } from "react";
 import "./Reports.css"
-import { Loader } from "../components/Loader"
-
-
 
 function FetchAPI() {
     const [isLoading, setIsLoading] = useState(true)
